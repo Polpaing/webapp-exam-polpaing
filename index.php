@@ -1,10 +1,5 @@
 <?php
 include './controls/fetchStudent.php';
-if (!isset($_SESSION['role']) || $_SESSION['role'] !== 'admin') {
-    header("Location: /itweb/index.php");
-    exit;
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
